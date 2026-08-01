@@ -17,9 +17,16 @@ Three text sources per company:
 | Earnings call transcripts | Most recent quarterly call, split into the Management Discussion and Q&A sections |
 | CEO / CFO prepared remarks | Standalone written comments, analyzed separately to compare leadership tone |
 
-Source PDFs are not included in this repo. The notebook reads them from a Google Drive
-directory (`BASE_DIR`); point it at your own copies of the filings and transcripts to
-re-run it.
+### Getting the data
+
+To run the notebook, download the source data from [GitHub Releases](https://github.com/mauriciosutton/tsla-rivn-nlp-analysis/releases):
+
+1. Go to the [Releases page](https://github.com/mauriciosutton/tsla-rivn-nlp-analysis/releases)
+2. Download the `data-*.zip` file from the latest release
+3. Extract the zip file in the repo root directory — this creates a `data/` folder
+4. Run the notebook, which will read from the extracted `data/` directory
+
+Alternatively, the notebook reads from a Google Drive directory (`BASE_DIR`); point it at your own copies of the filings and transcripts to re-run it with different sources.
 
 ## Pipeline
 
