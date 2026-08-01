@@ -82,7 +82,7 @@ then diffed into added / removed / unchanged.
   `capex`, `ebitda`, `gaap`, `incremental` — a cost-discipline and path-to-profitability
   story. "Autonomy" is the one word both calls share.
 
-Full results, including the charts, are in [`deck/`](deck/).
+Full results, including the charts, are in [`deck/`](deck/) — as [PDF](deck/tesla-rivian-nlp-analysis.pdf) and PowerPoint.
 
 ## Stack
 
